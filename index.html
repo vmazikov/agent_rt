@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b56fa">
+  <link rel="shortcut icon" href="./images/shortcut-icon.png">
+  <link href="./pages/index.css?2" rel="stylesheet" type="text/css">
+  <link rel="manifest" href="./manifest/manifest.json">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7344769062544520"
+     crossorigin="anonymous"></script>
+  <title>Информация с заявок по прямым продажам</title>
+</head>
+<body class="page">
+  <header class="header">
+    <a href="./index.html"><img class="header__logo" src="./images/logo.png" alt="Логотип"></a>
+    <a class="header__link" href="./admin.php">Войти</a>
+  </header>
+  <section class="section section__content">
+      <h2 class="form__title">Город*: </h2>
+      <div id="city-options" type="city" class="city-grid">
+        <label class="custom-radio"><input type="radio" name="city" value="kem"> Кемерово</label>
+        <label class="custom-radio"><input type="radio" name="city" value="len"> Ленинск</label>
+        <label class="custom-radio"><input type="radio" name="city" value="berezovskij"> Березовский</label>
+        <label class="custom-radio"><input type="radio" name="city" value="pls"> Полысаево</label>
+        <label class="custom-radio"><input type="radio" name="city" value="urga"> Юрга</label>
+        <label class="custom-radio"><input type="radio" name="city" value="anjttk"> Анжерка_ТТК</label>
+        <label class="custom-radio"><input type="radio" name="city" value="belttk"> Белово_ТТК</label>
+        <label class="custom-radio"><input type="radio" name="city" value="topkittk"> Топки_ТТК</label>
+        <label class="custom-radio"><input type="radio" name="city" value="grttk"> Грамотеино_ТТК</label>
+        <label class="custom-radio"><input type="radio" name="city" value="gurttk"> Гурьевск_ТТК</label>
+        <label class="custom-radio"><input type="radio" name="city" value="inskttk"> Инской_ТТК</label>
+      </div>
+      <div class="form__group">
+        <select name="street" id="name-street" class="valid form__field" placeholder="Улица">
+          <option value=""></option>
+        </select>
+        <label for="name-street" class="form__label">Улица:* </label>
+      </div>
+      <div class="form__group">
+        <select name="build" id="name-build" class="valid form__field" placeholder="Дом">
+          <option value=""></option>
+        </select>
+        <label for="name-build" class="form__label">Дом:* </label>
+      </div>
+      <nav class="menu">
+        <a class="menu__item" href="./ras.html">Расклейка на карте</a>
+      </nav>
+      <div class="oborudovanie-grid">
+        <h2 class="form__title"> Оборудование: </h2>
+      <div class="oborudovanie-grid">
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Аренда б/у оборудования за 10 руб (только одна единица приставка или роутер)</label>
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Wi-Fi TP-LINK EC225-G5/AC1300 Рассрочка 60 мес 60 рублей в месяц (не сочетается с арендой)</label>
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Wi-Fi TP-LINK EC225-G5/AC1300 3500 рублей </label>
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Eltex NV-721WB Рассрочка 60 мес 90 рублей в месяц (не сочетается с арендой)</label>
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Приставка IPTV Eltex 721  Покупка 5399 рублей </label>
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Приставка IPTV Eltex 721 рассрочка на 12мес 505р мес</label>
+        <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Белый IP адрес Подключение бесплатно 50 рублей в месяц </label>
+
+      </div>
+      <div class="tarifs city_kem">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 330 100 Мбит/Сек социальный доступен только пенсионерам и льготным категориям </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 300 мбит/сек 550 р </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 500 мбит/сек 650 р. </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 750р 500 Мбит/Сек 175  Каналов  </label>
+      </div>
+      <div  class="tarifs city_anjttk">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 175  Каналов  </label>
+      </div>
+      <div class="tarifs city_belttk">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_grttk">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_gurttk">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_inskttk">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_topkittk">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_len">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 300 мбит/сек 550 р </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 500 мбит/сек 650 р. </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 750р 500 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_berezovskij">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 300 мбит/сек 550 р </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 500 мбит/сек 650 р. </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 750р 500 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_pls">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 300 мбит/сек 550 р </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 500 мбит/сек 650 р. </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 750р 500 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="tarifs city_urga">
+        <h2 class="form__title">Тарифы: </h2>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 300 мбит/сек 550 р </label>
+        <label class="label"><input type="radio" name="tarif" value="">ШПД 500 мбит/сек 650 р. </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 500р 100 Мбит/Сек 120 Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 600р 100 Мбит/Сек 174  Каналов  </label>
+        <label class="label"><input type="radio" name="tarif" value="">Пакет IPTV 750р 500 Мбит/Сек 174  Каналов  </label>
+      </div>
+      <div class="channel">
+
+      </div>
+      <input type="submit" class="submit">
+      <input type="reset" class="reset">
+    </form>
+  </section>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+            // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      }).catch(function(err) {
+        console.log(err)
+      });
+    });
+  } else {
+    console.log('service worker is not supported');
+  }
+  </script>
+   <script src="./scripts/jquery.js"></script>
+   <script src="./scripts/streets.js"></script>
+  <script src="./scripts/channel/channel.js"></script>
+  <script src="./scripts/address-list/kemerovo.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.page {
+	font: 14px inter;
+	margin: 0 auto;
+	padding: 0;
+	color: rgb(29, 29, 29);
+	background-color: #f4f5f6;
+	min-width: 320px;
+	max-width: 1280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+
+@media screen and (max-width:800px) {
+  .page{
+    font-size: 12px;
+  }
+}
+

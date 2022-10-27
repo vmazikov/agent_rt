@@ -1,0 +1,28 @@
+.city-grid {
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  column-gap: 15px;
+  row-gap: 5px;
+}
+
+@media screen and (max-width:800px) {
+  .city-grid{
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .city-grid{
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+  }
+}
+
+@media screen and (max-width:510px) {
+  .city-grid{
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    column-gap: 5px;
+  }
+}

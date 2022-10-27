@@ -1,0 +1,12 @@
+.channel__container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #0b56fa;
+  border-radius: 10px;
+}

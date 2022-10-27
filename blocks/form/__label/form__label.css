@@ -1,0 +1,7 @@
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  color: rgb(29, 29, 29);
+}

@@ -1,0 +1,12 @@
+.popup__channel-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: auto;
+}
+
+
+@media screen and (max-width: 1210px) {
+  .popup__channel-container {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}

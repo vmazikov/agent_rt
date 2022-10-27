@@ -1,0 +1,12 @@
+.menu {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:650px) {
+  .menu {
+    display: grid;
+    gap: 7px;
+  }
+}

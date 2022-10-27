@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/shortcut-icon.png">
+  <link href="./pages/ras.css" rel="stylesheet" type="text/css">
+  <link rel="manifest" href="./manifest/manifest.json">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7344769062544520"
+  crossorigin="anonymous"></script>
+  <title>Расклейка</title>
+</head>
+<body class="page">
+  <header class="header">
+    <a href="./index.html"><img class="header__logo" src="./images/logo.png" alt="Логотип"></a>
+    <a class="header__link" href="./admin.php">Войти</a>
+  </header>
+  <section class="section">
+    <div id="city-options" type="city" class="city city-grid city-grid_ras">
+      <button class="city-button" type="button" id="kem">Кемерово</button>
+      <button class="city-button" type="button" id="len">Ленинск</button>
+      <button class="city-button" type="button" id="berezovskij">Березовский</button>
+      <button class="city-button" type="button" id="pls">Полысаево</button>
+      <button class="city-button" type="button" id="urga">Юрга</button>
+      <button class="city-button" type="button" id="anjttk">Анжерка</button>
+      <button class="city-button" type="button" id="belttk">Белово</button>
+      <button class="city-button" type="button" id="topkittk">Топки</button>
+      <button class="city-button" type="button" id="grttk">Грамотеино</button>
+      <button class="city-button" type="button" id="gurttk">Гурьевск</button>
+      <button class="city-button" type="button" id="inskttk">Инской</button>
+      <button class="city-button" type="button" id="gorodok">Новый городок</button>
+    </div>
+  </section>
+  <section class="iframe">
+    <iframe class="iframe__item" src=""></iframe>
+  </section>
+</body>
+<script>
+  if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+          navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+              // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+          // registration failed :(
+          console.log('ServiceWorker registration failed: ', err);
+        }).catch(function(err) {
+          console.log(err)
+        });
+      });
+    } else {
+      console.log('service worker is not supported');
+    }
+</script>
+<script src="./scripts/ras.js"></script>
+</html>

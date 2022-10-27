@@ -1,0 +1,11 @@
+.popup__subtitle {
+  margin-right: 10px;
+  width: 150px;
+}
+
+@media screen and (max-width: 1210px) {
+  .popup__subtitle {
+    font-size: 12px;
+    width: 110px;
+  }
+}

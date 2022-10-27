@@ -1,0 +1,7 @@
+.oborudovanie-grid {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 5px;
+    color: rgb(29, 29, 29);
+    font: 14px inter;
+}
