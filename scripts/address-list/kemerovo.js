@@ -1,5 +1,5 @@
 var selected_street ='';var selected_build = '';var city_streets = Object();
-city_streets["kem"] = {builds: [
+city_streets["kemerovo"] = {builds: [
 {street: "1-й Беломорский переулок", build: "7"},
 {street: "1-й Квартал", build: "1"},
 {street: "1-й Квартал", build: "2"},
