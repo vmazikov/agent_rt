@@ -1,7 +1,7 @@
 .city-button {
   width: 150px;
   height: 35px;
-  border: 2px #0b56fa solid;
+  border: 2px #7700ff solid;
   color: #000;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .city-button:hover {
-  background-color: #0b56fa;
-  border: 2px #0b56fa solid;
+  background-color: #7700ff;
+  border: 2px #7700ff solid;
   color: #FFF;
 }
