@@ -3,6 +3,7 @@ const buttonAnj = document.querySelector('#anjero');
 const buttonProkop = document.querySelector('#prokopievsk');
 const buttonMap = document.querySelector('#map');
 const buttonTopki = document.querySelector('#topki');
+const buttonPromislennaya = document.querySelector('#promislennaya');
 
 
 
@@ -11,6 +12,7 @@ const anjIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3Ae383ca5ae63
 const prokopIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3A82093b17f6f7895efffc35c532f90b8d3a4d2c70f01b5c77da2b7dd05aa63001&amp;source=constructor';
 const mapIframe ='https://yandex.ru/map-widget/v1/?um=constructor%3Aed277b9e21482d6154077beb8c0d0da0711a85494c66e4cd71a514508165316d&amp;source=constructor'
 const topkiIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3Ad327bd1aca3c480a66db69a155fdd03f50acbd9be96be3c75feb9910e0302e06&amp;source=constructor'
+const promislennayaIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3A0b26db91c0bfc41774b87f41d83f3b36a02a38eeb00c0a3141ce8a8e8471d92e&amp;source=constructor'
 const iframe = document.querySelector('.iframe__item');
 
 buttonKem.addEventListener('click', function(){
@@ -43,9 +45,9 @@ buttonPls.addEventListener('click', function(){
   iframe.src = plsIframe;
 })
 
-buttonUrga.addEventListener('click', function(){
+buttonPromislennaya.addEventListener('click', function(){
   iframe.src = '';
-  iframe.src = urgaIframe;
+  iframe.src = promislennayaIframe;
 })
 
 buttonBel.addEventListener('click', function(){
