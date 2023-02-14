@@ -40,42 +40,42 @@ buttonMap.addEventListener('click', function(){
   iframe.src = mapIframe;
 })
 
-buttonPls.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = plsIframe;
-})
-
 buttonPromislennaya.addEventListener('click', function(){
   iframe.src = '';
   iframe.src = promislennayaIframe;
 })
 
-buttonBel.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = belIframe;
-})
+// buttonPls.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = plsIframe;
+// })
 
-buttonTopki.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = topkiIframe;
-})
+// buttonBel.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = belIframe;
+// })
 
-buttonGram.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = gramIframe;
-})
+// buttonTopki.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = topkiIframe;
+// })
 
-buttonGur.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = gurIframe;
-})
+// buttonGram.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = gramIframe;
+// })
 
-buttonInsk.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = inskIframe;
-})
+// buttonGur.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = gurIframe;
+// })
 
-buttonGorodok.addEventListener('click', function(){
-  iframe.src = '';
-  iframe.src = gorodokIframe;
-})
+// buttonInsk.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = inskIframe;
+// })
+
+// buttonGorodok.addEventListener('click', function(){
+//   iframe.src = '';
+//   iframe.src = gorodokIframe;
+// })
