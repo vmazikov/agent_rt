@@ -4,7 +4,7 @@ const buttonProkop = document.querySelector('#prokopievsk');
 const buttonMap = document.querySelector('#map');
 const buttonTopki = document.querySelector('#topki');
 const buttonPromislennaya = document.querySelector('#promislennaya');
-
+const buttonBerezovskiy = document.querySelector('#berezovskiy');
 
 
 const kemIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3Ac78f6249ae901c61481365556adf332ebe6638afdb62893dccc471dedf6f1e1f&amp;source=constructor';
@@ -13,6 +13,7 @@ const prokopIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3A82093b17
 const mapIframe ='https://yandex.ru/map-widget/v1/?um=constructor%3Aed277b9e21482d6154077beb8c0d0da0711a85494c66e4cd71a514508165316d&amp;source=constructor'
 const topkiIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3Ad327bd1aca3c480a66db69a155fdd03f50acbd9be96be3c75feb9910e0302e06&amp;source=constructor'
 const promislennayaIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3A0b26db91c0bfc41774b87f41d83f3b36a02a38eeb00c0a3141ce8a8e8471d92e&amp;source=constructor'
+const berezovskiyIframe = 'https://yandex.ru/map-widget/v1/?um=constructor%3A6d8ad1d0e8ed2b5587acd265f449dfdf8e2856815c78e1d0a684b9475b3dded4&amp;source=constructor'
 const iframe = document.querySelector('.iframe__item');
 
 buttonKem.addEventListener('click', function(){
@@ -45,10 +46,10 @@ buttonPromislennaya.addEventListener('click', function(){
   iframe.src = promislennayaIframe;
 })
 
-// buttonPls.addEventListener('click', function(){
-//   iframe.src = '';
-//   iframe.src = plsIframe;
-// })
+buttonBerezovskiy.addEventListener('click', function(){
+  iframe.src = '';
+  iframe.src = berezovskiyIframe;
+})
 
 // buttonBel.addEventListener('click', function(){
 //   iframe.src = '';
